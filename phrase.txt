@@ -1,0 +1,9 @@
+ALGORITHM 
+Var phrase : char
+Var Nb : integer
+BEGIN
+write "Entrez un phrase : "
+read phrase
+Nb := Len(phrase)
+write "Ce phrase compte ", Nb, " lettres"
+END
